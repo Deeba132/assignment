@@ -72,4 +72,4 @@ Please change the parent <Route path="${d}"> to <Route path="${d==="/"?"*":`${d}
               width: 100%;
             }
           }
-        `})]})}function hg(){const e=Zy([{path:"/",element:O.jsx(sg,{})},{path:"/signin",element:O.jsx(cg,{})},{path:"/account",element:O.jsx(fg,{}),action:dg},{path:"/login",element:O.jsx(pg,{})}]);return O.jsx(ug,{router:e})}Di.createRoot(document.getElementById("root")).render(O.jsx($p.StrictMode,{children:O.jsx(hg,{})}));
+        `})]})}function hg(){const e=Zy([{path:"/",element:O.jsx(sg,{})},{path:"/signin",element:O.jsx(cg,{})},{path:"/account",element:O.jsx(fg,{}),action:dg},{path:"/login",element:O.jsx(pg,{})}],{basename:"/assignment"});return O.jsx(ug,{router:e})}Di.createRoot(document.getElementById("root")).render(O.jsx($p.StrictMode,{children:O.jsx(hg,{})}));
