@@ -24,7 +24,8 @@ function App() {
       path: "/login",
       element: <Signin />,
     },
-  ]);
+  ],{ basename: "/assignment" } // Add this line
+);
   return <RouterProvider router={routes} />;
 }
 
